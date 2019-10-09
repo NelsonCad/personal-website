@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from 'react';
+import "./Nav.css"
 import {
     Navbar,
     Nav,
@@ -6,9 +7,9 @@ import {
     NavItem,
     NavbarToggler,
     Collapse
-} from "reactstrap";
+} from 'reactstrap';
 
-function NavBar () {
+function NavBar() {
 
     const [isToggle, setToggle] = useState(false);
 
@@ -19,10 +20,10 @@ function NavBar () {
                     <h1>Nelson Cadenas</h1>
                 </NavLink>
 
-                <NavbarToggler onclick={() => setToggle(!isToggle)}/>
+                <NavbarToggler onclick={() => setToggle(!isToggle)} />
                 <Collapse toggle={isToggle} navbar>
                     <Nav className="ml-auto" navbar>
-                        
+
                         <NavItem>
                             <NavLink className="nav-link" href="/contact">Contact Me!</NavLink>
                         </NavItem>
