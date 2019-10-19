@@ -11,7 +11,11 @@ import {
 
 function NavBar() {
 
-    const [isToggle, setToggle] = useState(false);
+    const [open, setOpen] = useState(false);
+
+    function toggle() {
+        setOpen(!open);
+    }
 
     return (
         <div className="nav-bar">
@@ -20,8 +24,8 @@ function NavBar() {
                     <h1>Nelson Cadenas</h1>
                 </NavLink>
 
-                <NavbarToggler onclick={() => setToggle(!isToggle)} />
-                <Collapse toggle={isToggle} navbar>
+                <NavbarToggler onClick={() => toggle()} />
+                <Collapse isOpen={open} navbar>
                     <Nav className="ml-auto" navbar>
 
                         <NavItem>
