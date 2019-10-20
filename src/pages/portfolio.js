@@ -1,12 +1,12 @@
 import React from "react";
-import Slides from "../components/Carousel";
+import Jumbo from "../components/Jumbotron";
 
 
 function Portfolio() {
 
     return (
         <div>
-            <Slides />
+            <Jumbo />
         </div>
     )
 };
