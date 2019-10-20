@@ -6,7 +6,7 @@ function Jumbo({children}) {
         <div>
             <Jumbotron fluid>
                 <Container fluid>
-                    <p>My projects go here</p>
+                    {children}
                 </Container>
             </Jumbotron>
         </div>
