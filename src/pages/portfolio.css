@@ -1,0 +1,10 @@
+.item-display-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align:center;
+    margin: 3% auto;
+    width: 90%;
+    height:80%;
+}
