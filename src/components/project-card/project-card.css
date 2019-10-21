@@ -1,11 +1,14 @@
 .item-display-wrap {
     width: 250px;
-    box-shadow: -0.3em 0 .3em #b3a670;
     border-radius: 5%;
-    background: linear-gradient(to bottom, #3f2b0a 0%, #c1ab53 75%);
-    max-height:300px;
+    background: linear-gradient(to bottom, #300f0f 15%, #4a6aa5 33%);
+    max-height:350px;
     max-width:200px;
     border: 1px solid black;
     transition:0.2s;
     margin: 15px auto;
+}
+
+.title {
+    color: #fff
 }

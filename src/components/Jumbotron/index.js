@@ -1,14 +1,13 @@
 import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
+import "./Jumbotron.css";
 
-function Jumbo({children}) {
+function Jumbo({ children }) {
     return (
-        <div>
-            <Jumbotron fluid>
-                <Container fluid>
-                    {children}
-                </Container>
-            </Jumbotron>
+        <div className="jumbowrap">
+            <Container fluid>
+                {children}
+            </Container>
         </div>
     );
 };
