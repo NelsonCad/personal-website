@@ -8,18 +8,21 @@ function Portfolio() {
 
     return (
         <div>
-            <Jumbo>
-            <div className="item-display-container cardBuild">
-            {projects.map(project => (
-                <Project 
-                id={project.id}
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                link={project.link}
-                />
-            ))}
+            <div className="emptySpace">
+                <p>you shouldn't be seeing this</p>
             </div>
+            <Jumbo>
+                <div className="item-display-container cardBuild">
+                    {projects.map(project => (
+                        <Project
+                            id={project.id}
+                            key={project.id}
+                            title={project.title}
+                            description={project.description}
+                            link={project.link}
+                        />
+                    ))}
+                </div>
             </Jumbo>
         </div>
     )

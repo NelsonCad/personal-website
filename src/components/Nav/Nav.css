@@ -3,6 +3,9 @@
     border-bottom:2px solid;
     border-top:2px solid;
     z-index:15;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .nav-link {
