@@ -1,10 +1,15 @@
 import React from "react";
+import Space from "../components/Emptyspace";
+import "./placeholder.css";
 
 function Contact () {
 
 
     return (
-        <p>this is the contact page</p>
+        <div>
+            <Space />
+            <p>this is the Contact page</p>
+        </div>
     );
 };
 

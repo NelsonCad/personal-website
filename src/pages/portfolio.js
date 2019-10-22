@@ -2,15 +2,14 @@ import React from "react";
 import Jumbo from "../components/Jumbotron";
 import Project from "../components/project-card";
 import projects from "../components/projectList";
-import "./portfolio.css"
+import Space from "../components/Emptyspace";
+import "./portfolio.css";
 
 function Portfolio() {
 
     return (
         <div>
-            <div className="emptySpace">
-                <p>you shouldn't be seeing this</p>
-            </div>
+            <Space />
             <Jumbo>
                 <div className="item-display-container cardBuild">
                     {projects.map(project => (

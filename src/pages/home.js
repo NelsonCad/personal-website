@@ -1,10 +1,15 @@
 import React from "react";
+import Space from "../components/Emptyspace";
+import "./placeholder.css";
 
-function Home () {
+function Home() {
 
 
     return (
-        <p>this is the Home page</p>
+        <div>
+            <Space />
+            <p>this is the Home page</p>
+        </div>
     );
 };
 
