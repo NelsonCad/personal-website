@@ -24,11 +24,11 @@ function Home() {
 
                     <Col sm="10">
                         <p>
-                            I am a creative Web Developer who wishes to combine artful functionality with user-friendly experiences. I work to make every thing that i create to feel unique and meaningful, from the websites that i will make and currently making to (eventually) the vidoegames that will come to life.
+                            I am a creative Web Developer who wishes to combine artful functionality with user-friendly experiences. I work to make every thing that I create to feel unique and meaningful, from the websites that I will make and currently making to (eventually) the vidoegames that will come to life.
                         </p>
 
                         <p>
-                            On the 30th of September, 2019, I completed the intensive 12 week Bootcamp and have received my certificate for Full Stack Web Development using Javascript as the core coding language, and have learned to use HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various npm packages such as Sequalize, Mongoose, Express, and many more. Of course, there is far more to learn about in JavaScript and of what others have done in it, and i am more than happy to learn as much as possible about it. but why stop at JavaScript?
+                            On the 30th of September, 2019, I completed the intensive 12 week Bootcamp and have received my certificate for Full Stack Web Development using Javascript as the core coding language, and have learned to use HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various npm packages such as Sequalize, Mongoose, Express, and many more. Of course, there is far more to learn about in JavaScript and of what others have done in it, and I am more than happy to learn as much as possible about it.
                         </p>
 
                     </Col>
