@@ -7,8 +7,9 @@ function Project(props) {
     return (
             <Card body id={props.id} className="item-display-wrap">
                 <CardTitle className="title">{props.title}</CardTitle>
-                <CardText>{props.description}</CardText>
-                <Button href={props.link} target="_blank" color="primary">go to website</Button>
+                <CardText className="desc">{props.description}</CardText>
+                <Button href={props.link} target="_blank" color="primary" size="sm">go to website</Button>
+                <Button href={props.repo} target="_blank" color="secondary" size="sm">go to repository</Button>
             </Card>
     );
 };

@@ -3,30 +3,35 @@
         "id": 3,
         "title": "Project-2",
         "link": "https://hidden-tor-94730.herokuapp.com/",
-        "description": "An art posting website foreveryone to enjoy"
+        "description": "An art posting website foreveryone to enjoy",
+        "repo": "https://github.com/NelsonCad/Project-2"
     },
     {
         "id": 4,
         "title": "Gif Loader",
         "link": "https://nelsoncad.github.io/Giphy-Gif-Loader/",
-        "description": "A Giphy API using Webpage that generates Gifs from Giphy"
+        "description": "A Giphy API using Webpage that generates Gifs from Giphy",
+        "repo": "https://github.com/NelsonCad/Giphy-Gif-Loader"
     },
     {
         "id": 5,
         "title": "Slamaramazon",
         "link": "https://github.com/NelsonCad/Slamaramazon",
-        "description": "A Node application that simulates a view of stock for a store"
+        "description": "A Node application that simulates a view of stock for a store",
+        "repo": "https://github.com/NelsonCad/Slamaramazon"
     },
     {
         "id": 6,
         "title": "Train Schedule",
         "link": "https://nelsoncad.github.io/Train-Schedule/",
-        "description": "A Node application that simulates a shopping trip to a store"
+        "description": "A Web Page that uses Firebase to save information on trains that have been created by visitors",
+        "repo": "https://github.com/NelsonCad/Train-Schedule"
     },
     {
         "id": 7,
         "title": "Trivia Game",
         "link": "https://nelsoncad.github.io/Trivial-Game/",
-        "description": "A silly, non-sequitor questionnare for giggles"
+        "description": "A silly, non-sequitor questionnare for giggles",
+        "repo": "https://github.com/NelsonCad/Trivial-Game"
     }
 ]

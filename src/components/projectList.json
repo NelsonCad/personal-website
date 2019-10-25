@@ -1,19 +1,23 @@
-[{
-    "id": 0,
-    "title": "Garage Trader",
-    "description": "like Ebay, but without money",
-    "link": "https://protected-shelf-46012.herokuapp.com"
-},
-{
-    "id": 1,
-    "title": "Liri-Node-Search",
-    "description": "node application with various APIs",
-    "link": "https://github.com/NelsonCad/Liri-node-search"
-},
-{
-    "id": 2,
-    "title": "Mongoose Scraper",
-    "description": "iflscience.com scraper",
-    "link": "https://dry-anchorage-82464.herokuapp.com"
-}
+[
+    {
+        "id": 0,
+        "title": "Garage Trader",
+        "description": "like Ebay, but without money",
+        "link": "https://protected-shelf-46012.herokuapp.com",
+        "repo": "https://github.com/tannerbodrero/project-3"
+    },
+    {
+        "id": 1,
+        "title": "Liri-Node-Search",
+        "description": "node application with various APIs",
+        "link": "https://github.com/NelsonCad/Liri-node-search",
+        "repo": "https://github.com/NelsonCad/Liri-node-search"
+    },
+    {
+        "id": 2,
+        "title": "Mongoose Scraper",
+        "description": "iflscience.com scraper",
+        "link": "https://dry-anchorage-82464.herokuapp.com",
+        "repo": "https://github.com/NelsonCad/mongooseScraper"
+    }
 ]

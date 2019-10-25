@@ -25,12 +25,13 @@ function Portfolio() {
                             title={project.title}
                             description={project.description}
                             link={project.link}
+                            repo={project.repo}
                         />
                     ))}
                 </div>
 
                     <div className="text">
-                        <h2>other projects I have worked on</h2>
+                        <h2>Other projects I have worked on</h2>
                     </div>
                     
                     <div className="item-display-container cardBuild">
@@ -41,6 +42,7 @@ function Portfolio() {
                             title={project.title}
                             description={project.description}
                             link={project.link}
+                            repo={project.repo}
                         />
                     ))}
                     </div>
