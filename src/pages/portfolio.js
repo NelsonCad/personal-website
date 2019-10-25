@@ -2,6 +2,7 @@ import React from "react";
 import Jumbo from "../components/Jumbotron";
 import Project from "../components/project-card";
 import projects from "../components/projectList";
+import otherProjects from "../components/otherProjList"
 import Space from "../components/Emptyspace";
 import "./portfolio.css";
 
@@ -16,8 +17,6 @@ function Portfolio() {
                     <h2>Projects that I am most proud of</h2>
                 </div>
 
-                <hr />
-
                 <div className="item-display-container cardBuild">
                     {projects.map(project => (
                         <Project
@@ -29,6 +28,24 @@ function Portfolio() {
                         />
                     ))}
                 </div>
+
+                    <div className="text">
+                        <h2>other projects I have worked on</h2>
+                    </div>
+                    
+                    <div className="item-display-container cardBuild">
+                        {otherProjects.map(project => (
+                        <Project
+                            id={project.id}
+                            key={project.id}
+                            title={project.title}
+                            description={project.description}
+                            link={project.link}
+                        />
+                    ))}
+                    </div>
+                    
+
             </Jumbo>
         </div>
     )
