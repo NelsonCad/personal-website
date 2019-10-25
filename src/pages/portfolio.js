@@ -13,7 +13,7 @@ function Portfolio() {
             <Jumbo>
 
                 <div className="text">
-                    <h2>Previous Projects that I am most proud of</h2>
+                    <h2>Projects that I am most proud of</h2>
                 </div>
 
                 <hr />

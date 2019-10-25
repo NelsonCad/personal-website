@@ -7,7 +7,7 @@ import {
     Col
 } from "reactstrap";
 
-function Contact () {
+function Contact() {
 
 
     return (
@@ -20,14 +20,27 @@ function Contact () {
                 <Row className="row">
 
                     <Col sm="6">
-                        <p>Email: NelonCad97@gmail.com</p>
-                        <p>Phone: (602) 448-6900</p>
+
+                        <h4>
+                            <p>Email: NelonCad97@gmail.com</p>
+
+                            <p>Phone: (602) 448-6900</p>
+
+                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/">NelsonCad</a> </p>
+                        </h4>
+
                     </Col>
 
                     <Col sm="6">
-                        <p>Address: 549 E Benrich Dr.</p>
-                        <p>Gilbert, AZ 85295</p>
-                        
+
+                        <h4>
+                            <p>Address: 549 E Benrich Dr.</p>
+
+                            <p>Gilbert, AZ 85295</p>
+
+                            <p>Github: <a href="https://github.com/NelsonCad">Repo</a></p>
+                        </h4>
+
                     </Col>
 
                 </Row>
