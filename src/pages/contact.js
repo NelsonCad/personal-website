@@ -38,7 +38,7 @@ function Contact() {
 
                             <p>Gilbert, AZ 85295</p>
 
-                            <p>Github: <a href="https://github.com/NelsonCad">Repo</a></p>
+                            <p>Github: <a href="https://github.com/NelsonCad">Repository</a></p>
                         </h4>
 
                     </Col>
