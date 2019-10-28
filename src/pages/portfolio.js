@@ -11,7 +11,7 @@ function Portfolio() {
     return (
         <div>
             <Space />
-            <Jumbo>
+            <Jumbo className="jumbo">
 
                 <div className="text">
                     <h2>Projects that I am most proud of</h2>
@@ -30,12 +30,12 @@ function Portfolio() {
                     ))}
                 </div>
 
-                    <div className="text">
-                        <h2>Other projects I have worked on</h2>
-                    </div>
-                    
-                    <div className="item-display-container cardBuild">
-                        {otherProjects.map(project => (
+                <div className="text">
+                    <h2>Other projects I have worked on</h2>
+                </div>
+
+                <div className="item-display-container cardBuild">
+                    {otherProjects.map(project => (
                         <Project
                             id={project.id}
                             key={project.id}
@@ -45,8 +45,8 @@ function Portfolio() {
                             repo={project.repo}
                         />
                     ))}
-                    </div>
-                    
+                </div>
+
 
             </Jumbo>
         </div>
