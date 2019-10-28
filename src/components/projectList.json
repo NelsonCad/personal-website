@@ -16,7 +16,7 @@
     {
         "id": 2,
         "title": "Mongoose Scraper",
-        "description": "iflscience.com scraper",
+        "description": "iflscience.com article title and link scraper",
         "link": "https://dry-anchorage-82464.herokuapp.com",
         "repo": "https://github.com/NelsonCad/mongooseScraper"
     }
