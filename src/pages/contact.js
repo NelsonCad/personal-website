@@ -26,7 +26,7 @@ function Contact() {
 
                             <p>Phone: (602) 448-6900</p>
 
-                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/">NelsonCad</a> </p>
+
                         </h4>
 
                     </Col>
@@ -34,11 +34,11 @@ function Contact() {
                     <Col sm="6">
 
                         <h4>
-                            <p>Address: 549 E Benrich Dr.</p>
-
-                            <p>Gilbert, AZ 85295</p>
+                            
+                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/">NelsonCad</a> </p>
 
                             <p>Github: <a href="https://github.com/NelsonCad">Repository</a></p>
+
                         </h4>
 
                     </Col>

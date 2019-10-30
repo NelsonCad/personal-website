@@ -28,11 +28,11 @@ function Home() {
                         </p>
 
                         <p>
-                            On the 30th of September, 2019, I completed the intensive 12 week Bootcamp and have received my certificate for Full Stack Web Development using Javascript as the core coding language, and have learned to use HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. Of course, there is far more to know about in JavaScript and of what others have done in it, and I am more than happy to learn as much as possible about it.
+                            On the 30th of September, 2019, I completed the intensive Bootcamp and have received my certificate for Full Stack Web Development using Javascript as the core coding language, and have learned to use HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. Of course, there is far more to know about in JavaScript and of what others have done in it, and I am more than happy to learn as much as possible about it.
                         </p>
 
                         <p>
-                            But why should I stop at JavaScript?
+                            But why should I limit myself to just JavaScript?
                             </p>
 
                     </Col>

@@ -14,7 +14,7 @@ function Portfolio() {
             <Jumbo className="jumbo">
 
                 <div className="text">
-                    <h2>Projects that I am most proud of</h2>
+                    <h2>Featured Projects</h2>
                 </div>
 
                 <div className="item-display-container cardBuild">

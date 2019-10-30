@@ -9,7 +9,7 @@
     {
         "id": 1,
         "title": "Liri-Node-Search",
-        "description": "node application with various APIs",
+        "description": "node application with various APIs for concert, song, and movie details",
         "link": "https://github.com/NelsonCad/Liri-node-search",
         "repo": "https://github.com/NelsonCad/Liri-node-search"
     },
