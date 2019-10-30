@@ -22,7 +22,7 @@ function Contact() {
                     <Col sm="6">
 
                         <h4>
-                            <p>Email: NelonCad97@gmail.com</p>
+                            <p>Email: NelsonCad97@gmail.com</p>
 
                             <p>Phone: (602) 448-6900</p>
 
@@ -34,10 +34,10 @@ function Contact() {
                     <Col sm="6">
 
                         <h4>
-                            
-                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/">NelsonCad</a> </p>
 
-                            <p>Github: <a href="https://github.com/NelsonCad">Repository</a></p>
+                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/" target="blank">NelsonCad</a> </p>
+
+                            <p>Github: <a href="https://github.com/NelsonCad" target="blank">Repository</a></p>
 
                         </h4>
 
