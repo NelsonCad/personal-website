@@ -1,7 +1,7 @@
 import React from "react";
 import "./Emptyspace.css"
 
-function Space () {
+function navSpace () {
 
     return (
         <div className="emptySpace">
@@ -10,4 +10,4 @@ function Space () {
     );
 };
 
-export default Space;
+export default navSpace;

@@ -1,5 +1,5 @@
 import React from "react";
-import Space from "../components/Emptyspace";
+import Space from "../components/Emptyspace/navspace";
 import "./placeholder.css";
 import {
     Container,
