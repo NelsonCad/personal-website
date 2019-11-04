@@ -11,7 +11,7 @@
         "id": 1,
         "title": "Liri-Node-Search",
         "description": "node application with various APIs for concert, song, and movie details",
-        "details": "",
+        "details": "A solo project only operable in terminal (not an actual web  application) that makes getting details of songs, concerts, and movies a bit easier to find. Uses the APIs of Spotify (npm package used), bandsintown.com, and IMDB.com. Due to it not actually being a web application, it must be downloaded and initiated in the terminal in order to be used.",
         "link": "https://github.com/NelsonCad/Liri-node-search",
         "repo": "https://github.com/NelsonCad/Liri-node-search"
     },
@@ -19,12 +19,14 @@
         "id": 2,
         "title": "Mongoose Scraper",
         "description": "iflscience.com article title and link scraper",
+        "details": "A solo project  that uses the npm package called ‘Cheerio’ to scrape the titles and links of the various articles that iflscience.com has on a page. Articles of interest can be saved into a separate database to be read later. Currently, all users share the same saved articles database, so everyone will see any changes made to the list. On the far right side of the navbar, there is a button that clears the front page of scraped articles if that list starts getting long or repetitive.",
         "link": "https://dry-anchorage-82464.herokuapp.com",
         "repo": "https://github.com/NelsonCad/mongooseScraper"
     } ,{
         "id": 3,
         "title": "Fumblarts",
         "description": "An art posting website for everyone to enjoy",
+        "details": "A three-person-group project where we wanted to create a web application that allows users post their own works of art for other users to enjoy. I was responsible for the server-side code and authentication for the application.",
         "link": "https://hidden-tor-94730.herokuapp.com/",
         "repo": "https://github.com/NelsonCad/Project-2"
     },
@@ -32,6 +34,7 @@
         "id": 4,
         "title": "Gif Loader",
         "description": "A Giphy API using Webpage that generates Gifs from Giphy",
+        "details": "A single page website that uses JQuery and Giphy.com's API in order to obtain and display gifs that the user searches for. Also, it is  a solo project.",
         "link": "https://nelsoncad.github.io/Giphy-Gif-Loader/",
         "repo": "https://github.com/NelsonCad/Giphy-Gif-Loader"
     },
@@ -39,6 +42,7 @@
         "id": 5,
         "title": "Slamaramazon",
         "description": "A Node application that simulates a view of stock for a store",
+        "details": "A terminal application that simulates shopping at a store called Slamaramazon. Use primarily to get used to using MySQL for item stock and making associations with the various categories. A solo project, and must be downloaded and initiated in terminal in order to be used.",
         "link": "https://github.com/NelsonCad/Slamaramazon",
         "repo": "https://github.com/NelsonCad/Slamaramazon"
     },
@@ -46,6 +50,7 @@
         "id": 6,
         "title": "Train Schedule",
         "description": "A Web Page that uses Firebase to save information on trains that have been created by visitors",
+        "details": "This project of the solo kind uses JQuery and Google’s firebase in order to save information about user-created trains and keeps track of their schedule in real time. Currently, the page must be refreshed in order to update the times of the trains.",
         "link": "https://nelsoncad.github.io/Train-Schedule/",
         "repo": "https://github.com/NelsonCad/Train-Schedule"
     },
@@ -53,6 +58,7 @@
         "id": 7,
         "title": "Trivia Game",
         "description": "A silly, non-sequitor questionnare for giggles",
+        "details": "Although the description says it, this project was actually used for more than just giggles. The application used as practice for using JQuery.",
         "link": "https://nelsoncad.github.io/Trivial-Game/",
         "repo": "https://github.com/NelsonCad/Trivial-Game"
     }
