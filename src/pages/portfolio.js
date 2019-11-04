@@ -31,7 +31,7 @@ function Portfolio() {
                 newToggle={() => toggle()}
                 id={projectClicked.id}
                 title={projectClicked.title}
-                description={projectClicked.description}
+                details={projectClicked.details}
                 link={projectClicked.link}
                 repo={projectClicked.repo}
             ></Modalview>

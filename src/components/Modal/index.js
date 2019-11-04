@@ -11,7 +11,7 @@ const Modalview = (props) => {
             onClose={props.newClose}>
             <ModalHeader toggle={props.newToggle}>{props.title}</ModalHeader>
         <ModalBody>
-          {props.description}
+          {props.details}
         </ModalBody>
         <ModalFooter>
           <Button href={props.link} target="_blank" color="primary" size="sm">Website</Button>{' '}
