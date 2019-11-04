@@ -1,17 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./Modal.css";
 
-function Modalview(props) {
-
-    const [modal, setmodal] = useState(false);
-
-    const toggle = () => setmodal(!modal); 
+const Modalview = (props) => {
 
     return (
         <div>
-            <Modal isOpen={modal} onClick={toggle} id={props.id}>
-            <ModalHeader toggle={toggle}>{props.title}</ModalHeader>
+            <Modal isOpen={props.newModal} id={props.id}
+            toggle={props.newToggle}
+            onClose={props.newClose}>
+            <ModalHeader toggle={props.newToggle}>{props.title}</ModalHeader>
         <ModalBody>
           {props.description}
         </ModalBody>

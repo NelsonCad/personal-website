@@ -5,23 +5,30 @@ import projects from "../components/projectList";
 // import otherProjects from "../components/otherProjList";
 import Modalview from "../components/Modal";
 import NavSpace from "../components/navspace";
-import FootSpace from "../components/footerspace"
 import "./portfolio.css";
+
+
 
 function Portfolio() {
 
     const [modal, setModal] = useState(false);
     const [projectClicked, setProjectClicked] = useState({});
 
-    function toggle() {
+    function toggle(id) {
 
         setModal(!modal);
+
+        if (!modal) {
+            setProjectClicked(projects[id]);
+        }
+        
     }
 
     return (
         <div>
             <NavSpace />
             <Modalview newModal={modal}
+                newToggle={() => toggle()}
                 id={projectClicked.id}
                 title={projectClicked.title}
                 description={projectClicked.description}
@@ -38,36 +45,18 @@ function Portfolio() {
                 >
                     {projects.map(project => (
                         <Project
-                            onClick={() => toggle()}
                             id={project.id}
                             key={project.id}
                             title={project.title}
                             description={project.description}
                             link={project.link}
                             repo={project.repo}
+                            onClick={() => toggle(project.id)}
                         />
                     ))}
                 </div>
-
-                {/* <div className="text">
-                    <h2>Other projects I have worked on</h2>
-                </div>
-
-                <div className="item-display-container cardBuild">
-                    {otherProjects.map(project => (
-                        <Project
-                            id={project.id}
-                            key={project.id}
-                            title={project.title}
-                            description={project.description}
-                            link={project.link}
-                            repo={project.repo}
-                        />
-                    ))}
-                </div> */}
 
             </Jumbo>
-            <FootSpace />
         </div>
     )
 };

@@ -3,6 +3,7 @@
         "id": 0,
         "title": "Garage Trader",
         "description": "like Ebay, but without money",
+        "details": "A four-person-group project that wanted to create a web application to act as a medium for people to use in order to trade their unwanted items for items they do want directly, without a currency. the group split into 2 teams of two, one team to set up the front-end of the application, the other team to set up the back-end. I was on the team to create the back-end, and responsible for the routes and authentication for the application.",
         "link": "https://protected-shelf-46012.herokuapp.com",
         "repo": "https://github.com/tannerbodrero/project-3"
     },
@@ -10,6 +11,7 @@
         "id": 1,
         "title": "Liri-Node-Search",
         "description": "node application with various APIs for concert, song, and movie details",
+        "details": "",
         "link": "https://github.com/NelsonCad/Liri-node-search",
         "repo": "https://github.com/NelsonCad/Liri-node-search"
     },
@@ -22,36 +24,36 @@
     } ,{
         "id": 3,
         "title": "Fumblarts",
-        "link": "https://hidden-tor-94730.herokuapp.com/",
         "description": "An art posting website for everyone to enjoy",
+        "link": "https://hidden-tor-94730.herokuapp.com/",
         "repo": "https://github.com/NelsonCad/Project-2"
     },
     {
         "id": 4,
         "title": "Gif Loader",
-        "link": "https://nelsoncad.github.io/Giphy-Gif-Loader/",
         "description": "A Giphy API using Webpage that generates Gifs from Giphy",
+        "link": "https://nelsoncad.github.io/Giphy-Gif-Loader/",
         "repo": "https://github.com/NelsonCad/Giphy-Gif-Loader"
     },
     {
         "id": 5,
         "title": "Slamaramazon",
-        "link": "https://github.com/NelsonCad/Slamaramazon",
         "description": "A Node application that simulates a view of stock for a store",
+        "link": "https://github.com/NelsonCad/Slamaramazon",
         "repo": "https://github.com/NelsonCad/Slamaramazon"
     },
     {
         "id": 6,
         "title": "Train Schedule",
-        "link": "https://nelsoncad.github.io/Train-Schedule/",
         "description": "A Web Page that uses Firebase to save information on trains that have been created by visitors",
+        "link": "https://nelsoncad.github.io/Train-Schedule/",
         "repo": "https://github.com/NelsonCad/Train-Schedule"
     },
     {
         "id": 7,
         "title": "Trivia Game",
-        "link": "https://nelsoncad.github.io/Trivial-Game/",
         "description": "A silly, non-sequitor questionnare for giggles",
+        "link": "https://nelsoncad.github.io/Trivial-Game/",
         "repo": "https://github.com/NelsonCad/Trivial-Game"
     }
 ]
