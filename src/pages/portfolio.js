@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import Jumbo from "../components/Jumbotron";
 import Project from "../components/project-card";
 import projects from "../components/projectList";
-// import otherProjects from "../components/otherProjList";
 import Modalview from "../components/Modal";
-import NavSpace from "../components/navspace";
 import "./portfolio.css";
 
 
@@ -26,7 +24,6 @@ function Portfolio() {
 
     return (
         <div>
-            <NavSpace />
             <Modalview newModal={modal}
                 newToggle={() => toggle()}
                 id={projectClicked.id}

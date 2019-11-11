@@ -1,5 +1,4 @@
 import React from "react";
-import Space from "../components/navspace";
 import "./placeholder.css";
 import {
     Container,
@@ -12,7 +11,6 @@ function Contact() {
 
     return (
         <div>
-            <Space />
             <Container className="container">
                 <h1>How to contact me</h1>
                 <hr></hr>

@@ -8,6 +8,7 @@ import {
     NavbarToggler,
     Collapse
 } from 'reactstrap';
+import NavSpace from "../navspace/"
 
 function NavBar() {
 
@@ -18,28 +19,38 @@ function NavBar() {
     }
 
     return (
-        <div className="nav-bar">
-            <Navbar light expand="md">
-                <NavLink href="/">
-                    <h1>Nelson Cadenas</h1>
-                </NavLink>
+        <div>
+            <NavSpace />
+            <div className="nav-bar">
+                <Navbar light expand="md">
+                    <NavLink  href="/">
+                        <h1 className="ninja">Nelson Cadenas</h1>
+                    </NavLink>
 
-                <NavbarToggler onClick={() => toggle()} />
-                <Collapse isOpen={open} navbar>
-                    <Nav className="ml-auto" navbar>
+                    <NavbarToggler onClick={() => toggle()} />
+                    <Collapse isOpen={open} navbar>
+                        <Nav className="ml-auto" navbar>
 
-                        <NavItem>
-                            <NavLink className="nav-link" href="/contact">Contact Me!</NavLink>
-                        </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link ninja" href="/">
+                                    About Me!
+                                </NavLink>
+                            </NavItem>
 
-                        <NavItem>
-                            <NavLink className="nav-link" href="/portfolio">My Portfolio</NavLink>
-                        </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" href="/contact" >Contact Me!</NavLink>
+                            </NavItem>
 
-                    </Nav>
-                </Collapse>
+                            <NavItem>
+                                <NavLink className="nav-link" href="/portfolio" >My Portfolio</NavLink>
+                            </NavItem>
 
-            </Navbar>
+                        </Nav>
+                    </Collapse>
+
+                </Navbar>
+            </div>
+
         </div>
     )
 }

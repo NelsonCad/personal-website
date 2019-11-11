@@ -1,5 +1,4 @@
 import React from "react";
-import Space from "../components/navspace";
 import "./placeholder.css";
 import {
     Container,
@@ -11,7 +10,6 @@ function Home() {
 
     return (
         <div>
-            <Space />
             <Container className="container">
                 <h1>About Me</h1>
                 <hr></hr>
@@ -28,7 +26,7 @@ function Home() {
                         </p>
 
                         <p>
-                            On the 30th of September, 2019, I completed an intensive Bootcamp and have received my certificate for Full Stack Web Development using Javascript as the core coding language, and have learned to use HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. Of course, there is far more to know about in JavaScript and of what others have done in it, and I am more than happy to learn as much as possible about it.
+                            I am a Full Stack Web Development using Javascript as my core coding language, and am currently using HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. With JavaScript being such an expansive language to begin with and continously growing, there is always something else for me to discover, learn, and develop.
                         </p>
 
                         <p>

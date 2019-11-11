@@ -1,8 +1,8 @@
 .nav-bar {
     background: linear-gradient(to left, #4a6aa5 25%, #1f1908 75%);
-    border-bottom:2px solid;
-    border-top:2px solid;
-    z-index:15;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    z-index: 15;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -16,8 +16,23 @@
 
 @media only screen and (max-width: 768px) {
 
+    .nav-bar {
+        background: linear-gradient(to left, #4a6aa5 18%, #1f1908 82%);
+    }
+
     .nav-link {
         color:#4a6aa5;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .nav-home {
+        font-size: 26px;
+    }
+
+    .ninja {
+        display: none;
     }
 }
 
