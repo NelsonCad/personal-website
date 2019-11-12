@@ -12,18 +12,17 @@ function Contact() {
     return (
         <div>
             <Container className="container">
-                <h1>How to contact me</h1>
-                <hr></hr>
+                <h1 className="contact-text">How to contact me</h1>
+                <hr />
 
                 <Row className="row">
 
                     <Col sm="6">
 
-                        <h4>
+                        <h4 className="contact-text">
                             <p>Email: NelsonCad97@gmail.com</p>
 
                             <p>Phone: (602) 448-6900</p>
-
 
                         </h4>
 
@@ -31,7 +30,7 @@ function Contact() {
 
                     <Col sm="6">
 
-                        <h4>
+                        <h4 className="contact-text">
 
                             <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/" target="blank">NelsonCad</a> </p>
 
@@ -44,6 +43,7 @@ function Contact() {
                 </Row>
 
             </Container>
+            
         </div>
     );
 };
