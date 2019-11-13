@@ -36,6 +36,7 @@ function Portfolio() {
 
                 <div className="text">
                     <h2>Featured Projects</h2>
+                    <h5>(click on the project for more details)</h5>
                 </div>
 
                 <div className="item-display-container cardBuild"

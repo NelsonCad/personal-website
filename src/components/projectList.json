@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Garage Trader",
         "description": "like Ebay, but without money",
-        "details": "A four-person-group project that wanted to create a web application to act as a medium for people to use in order to trade their unwanted items for items they do want directly, without a currency. the group split into 2 teams of two, one team to set up the front-end of the application, the other team to set up the back-end. I was on the team to create the back-end, and responsible for the routes and authentication for the application.",
+        "details": "A four-person-group project that wanted to create a web application to act as a medium for people to use in order to trade their unwanted items for items they do want, without a currency. the group split into 2 teams of two, one team to set up the front-end of the application, the other team to set up the back-end. I was on the team to create the back-end, and responsible for the routes and authentication for the application.",
         "link": "https://protected-shelf-46012.herokuapp.com",
         "repo": "https://github.com/tannerbodrero/project-3"
     },
