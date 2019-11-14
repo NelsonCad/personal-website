@@ -26,7 +26,7 @@ function Home() {
                         </p>
 
                         <p>
-                            I am a Full Stack Web Development using Javascript as my core coding language, and am currently using HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. With JavaScript being such an expansive language to begin with and continously growing, there is always something else for me to discover, learn, and develop.
+                            I am a Full Stack Web Developer who uses Javascript as my core coding language, and am currently using HTML, CSS, JQuery, Reactjs (which is being used to create this website), MySQL, MongoDB, Node.js, and various NPM  packages such as Sequalize, Mongoose, Express, and many more. With JavaScript being such an expansive language to begin with and continously growing, there is always something else for me to discover, learn, and develop.
                         </p>
 
                         <p>

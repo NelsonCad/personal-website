@@ -32,7 +32,7 @@ function NavBar() {
                         <Nav className="ml-auto" navbar>
 
                             <NavItem>
-                                <NavLink className="nav-link ninja" href="/">
+                                <NavLink className="nav-link" href="/">
                                     About Me!
                                 </NavLink>
                             </NavItem>

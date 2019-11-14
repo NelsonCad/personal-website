@@ -32,9 +32,9 @@ function Contact() {
 
                         <h4 className="contact-text">
 
-                            <p>LinkedIn: <a href="https://www.linkedin.com/in/nelsoncad/" target="blank">NelsonCad</a> </p>
+                            <p>LinkedIn: <a className="contact-link" href="https://www.linkedin.com/in/nelsoncad/" target="blank">NelsonCad</a> </p>
 
-                            <p>Github: <a href="https://github.com/NelsonCad" target="blank">Repository</a></p>
+                            <p>Github: <a className="contact-link" href="https://github.com/NelsonCad" target="blank">Repository</a></p>
 
                         </h4>
 

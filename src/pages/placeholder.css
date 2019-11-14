@@ -2,6 +2,10 @@
     background-color: #868686
 }
 
+.contact-link {
+    color: #750b0b;
+}
+
 @media only screen and (max-width: 380px) {
 
     .contact-text {
