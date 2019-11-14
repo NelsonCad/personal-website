@@ -4,6 +4,8 @@ import "./Modal.css";
 
 const Modalview = (props) => {
 
+  
+
     return (
         <div>
             <Modal isOpen={props.newModal} id={props.id}
@@ -14,8 +16,8 @@ const Modalview = (props) => {
           {props.details}
         </ModalBody>
         <ModalFooter>
-          <Button href={props.link} target="_blank" color="primary" size="sm">Website</Button>{' '}
-          <Button href={props.repo} target="_blank" color="secondary" size="sm">Repository</Button>
+          <Button href={props.link} target="_blank" color="primary" size="md">Website</Button>{' '}
+          <Button href={props.repo} target="_blank" color="secondary" size="md">Repository</Button>
         </ModalFooter>
             </Modal>
 

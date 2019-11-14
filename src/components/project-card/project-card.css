@@ -12,6 +12,7 @@
 .item-display-wrap:hover {
     background: #300f0f;
     box-shadow: inset 0 0 20px #4a6aa5;
+    cursor: pointer;
 }
 
 .desc {
