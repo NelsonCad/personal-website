@@ -46,7 +46,7 @@ function Home() {
                             <a className="contact-link" href="#">NelsonCad97@gmail.com</a>
                         </div>
 
-                        <div className="boox phone">
+                        <div className="boox">
                             <FaPhone />
                             <a className="contact-link" href="#">(602) 448-6900</a>
                         </div>
