@@ -38,10 +38,6 @@ function NavBar() {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink className="nav-link" href="/contact" >Contact Me!</NavLink>
-                            </NavItem>
-
-                            <NavItem>
                                 <NavLink className="nav-link" href="/portfolio" >My Portfolio</NavLink>
                             </NavItem>
 

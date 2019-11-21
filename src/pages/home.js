@@ -5,22 +5,67 @@ import {
     Row,
     Col
 } from "reactstrap";
+import {
+    FaGithub,
+    FaLinkedin,
+    FaPhone
+} from "react-icons/fa";
+import {
+    MdEmail
+} from "react-icons/md"
+
 
 function Home() {
 
     return (
         <div>
+
+
             <Container className="container">
-                <h1>About Me</h1>
-                <hr></hr>
 
                 <Row className="row">
 
-                    <Col sm="2">
+                    <Col sm={{ size: 10 }}>
+
+                        <div>
+                            <h1>About Me</h1>
+                        </div>
+
+                        <div className="boox ">
+                            <FaGithub />
+                            <a className="contact-link" href="https://github.com/NelsonCad" target="blank">Repository</a>
+                        </div>
+
+                        <div className="boox">
+                            <FaLinkedin />
+                            <a className="contact-link" href="https://www.linkedin.com/in/nelsoncad/" target="blank">NelsonCad</a>
+                        </div>
+
+                        <div className="boox email">
+                            <MdEmail />
+                            <a className="contact-link" href="#">NelsonCad97@gmail.com</a>
+                        </div>
+
+                        <div className="boox phone">
+                            <FaPhone />
+                            <a className="contact-link" href="#">(602) 448-6900</a>
+                        </div>
+
+                        <hr></hr>
+
+                    </Col>
+                </Row>
+
+                <Row>
+
+                    <Col sm={{ size: 2 }}>
                         <h3>Who am I?</h3>
+
+
+
                     </Col>
 
-                    <Col sm="10">
+                    <Col sm={{ size: 8 }}>
                         <p>
                             I am a creative Web Developer who wishes to combine artful functionality with user-friendly experiences. I work to make every thing that I create to feel unique and meaningful, from the websites that I am currently making to the videogames that I will bring to life.
                         </p>

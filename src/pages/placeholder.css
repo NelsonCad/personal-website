@@ -1,5 +1,28 @@
 .container {
-    background-color: #868686
+    background-color: #868686;
+}
+
+.boox {
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    background-color: #868686;
+    display: inline-block;
+    margin: 0px 2px;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+.boox:hover {
+    width: 150px
+}
+
+.email:hover {
+    width: 200px;
+}
+
+.contact-info {
+    font-size: 12px;
 }
 
 .contact-link {
