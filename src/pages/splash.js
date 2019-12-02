@@ -1,12 +1,21 @@
 import React from "react";
-import "./splash.css"
+import "./splash.css";
+import { Container } from "reactstrap"
 
-function Splash () {
+function Splash() {
 
     return (
-        <div>
-            Da slpash page :3
-        </div>
+
+        <Container>
+            <div className="jumboSplash">
+                
+                <div className="box1">
+                </div>
+                <div className="box2">
+                </div>
+
+            </div>
+        </Container>
     );
 };
 

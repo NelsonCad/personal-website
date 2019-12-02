@@ -1,0 +1,42 @@
+.jumboSplash {
+    background-color: #ffffff;
+    width: 15px;
+    height: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    /* animation: name, duration, speeds, delay timer, iterations; */
+    -webkit-animation: extend-width 1.5s ease 0.5s 1;
+    -webkit-animation-fill-mode: both;
+    animation: extend-width 1.5s ease 0.5s 1;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes extend-width {
+    0% {width: 5%; height: 10px}
+    50% {width: 100%; height: 10px}
+    100% {width: 100%; height: 500px}
+}
+@keyframes extend-width {
+    0% {width: 5%; height: 10px}
+    50% {width: 100%; height: 10px}
+    100% {width: 100%; height: 500px}
+}
+
+.box1 {
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    display: inline-block;
+}
+.box2 {
+    background-color: rgb(128, 199, 240);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    right: 0px;
+    display: inline-block;
+}
