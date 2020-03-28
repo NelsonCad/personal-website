@@ -31,6 +31,14 @@
         "repo": "https://github.com/NelsonCad/Project-2"
     },
     {
+        "id": 8,
+        "title": "Websignment",
+        "description": "experemental website use for an assignment",
+        "details": "A project that only usess Ant Design, react hooks, and recharts for the entirety of the front end. contains a functioning server to get the information for the charts and notification component",
+        "link": "https://peaceful-everglades-15759.herokuapp.com/",
+        "repo": "https://github.com/NelsonCad/clairvoyant-take-home-project"
+    },
+    {
         "id": 4,
         "title": "Gif Loader",
         "description": "A Giphy API using Webpage that generates Gifs from Giphy",

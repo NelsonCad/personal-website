@@ -11,6 +11,7 @@ function Splash() {
                 
                 <div className="box1">
                 </div>
+                
                 <div className="box2">
                 </div>
 

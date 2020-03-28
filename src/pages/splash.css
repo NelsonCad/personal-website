@@ -27,16 +27,29 @@
     background-color: lightcoral;
     height: 100px;
     width: 100px;
-    position: relative;
     top: 200px;
-    display: inline-block;
+    float: left;
+    position: relative;
+    animation: left-box 1s ease 2s 1;
+    animation-fill-mode: both;
 }
+@keyframes left-box {
+    0% {top: 200px; left: 0%;}
+    100% {top: 200px; left: 55%}
+}
+
 .box2 {
     background-color: rgb(128, 199, 240);
     height: 100px;
     width: 100px;
-    position: relative;
     top: 200px;
-    right: 0px;
-    display: inline-block;
+    float: right;
+    position: relative;
+    animation: right-box 1s ease 2s 1;
+    animation-fill-mode: both;
+}
+@keyframes right-box {
+    0% {top: 200px; right: 0%;}
+    100% {top: 200px; right: 55%}
+
 }
